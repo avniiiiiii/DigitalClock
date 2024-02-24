@@ -1,0 +1,28 @@
+
+body{
+background-image: url("assets/bg-digitalclock.jpg");
+background-position:center;
+background-repeat:no-repeat;
+background-size: cover;
+background-attachment:fixed;
+/* the img is going to adjust according to the window; */
+margin :0px;
+display:flex;
+min-height:100vh;
+align-items:center;
+justify-content:center;
+}
+.clock-container{
+backdrop-filter:blur(4px);
+padding:10px 0;
+
+}
+.clock{
+color:white;
+font-size:5rem;
+font-weight:bold;
+font-family:monospace;
+text-shadow:3px 3px 5px rgb(106, 98, 98);
+text-align:center;
+
+}
